@@ -1,0 +1,17 @@
+Anleitung
+
+1) Projekt anlegen: phonegap create MyProject --template blank
+2) www-Verzeichnis durch Beispiel www- Verzeichnis ersetzen
+3) In Verzeichnis MyProject wechseln
+4) Android Plattform hinzufügen: cordova platform add android
+5) Installation der benötigten Plugins:  
+   cordova plugin add cordova-plugin-whitelist
+   cordova plugin add cordova-plugin-device
+   cordova plugin add cordova-plugin-network-information
+   cordova plugin add cordova-plugin-battery-status
+   cordova plugin add cordova-plugin-statusbar
+   cordova plugin add cordova-plugin-screen-orientation
+6) App in Browser ausführen: phonegap serve
+   App auf Handy ausführen: 1) Handy anschließen
+			    2) cordova run android
+   
